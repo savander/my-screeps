@@ -4,7 +4,9 @@
 interface CreepMemory {
   role: string;
   room: string;
+  upgrading: boolean;
   working: boolean;
+  spawner: string;
 }
 
 interface Memory {
